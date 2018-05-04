@@ -1,0 +1,9 @@
+audio:live = false 										# $(bool) use live input from a microphone
+audio:file = data\combined\test_hb_tpt.wav  	     			# if not live input read in from this file
+audio:rate = 48000										# sample rate in Hz (if live audio is used)
+
+# classification
+
+model:chain = compare									# name of chain
+model:type  = linsvm									# model type
+
