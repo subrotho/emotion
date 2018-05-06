@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<trainer ssi-v="5">
+    <info trained="true" />
+    <register>
+        <item name="libsvm" />
+    </register>
+    <streams>
+        <item byte="4" dim="6373" sr="0.000000" type="FLOAT" />
+    </streams>
+    <classes>
+        <item name="anger" />
+        <item name="boredom" />
+        <item name="disgust" />
+        <item name="fear" />
+        <item name="happiness" />
+        <item name="neutral" />
+        <item name="sadness" />
+    </classes>
+    <users>
+        <item name="NOBODY" />
+    </users>
+    <normalize>
+        <item method="Scale" stream="0" path="svm.compare.trainer.trainer.#0" />
+    </normalize>
+    <model create="LibSVM" stream="0" path="svm.compare.trainer.trainer.LibSVM" option="svm.compare.trainer.trainer.LibSVM" />
+</trainer>

@@ -1,0 +1,14 @@
+             #classes:      7
+             #features:     6373
+             #total:        533
+             #classified:   533
+             #unclassified: 0
+             
+                 anger:    108      0      2      0     14      1      0    ->    86.40%
+               boredom:      0     65      1      0      1      8      3    ->    83.33%
+               disgust:      2      2     44      3      1      1      0    ->    83.02%
+                  fear:      7      1      1     48      7      3      2    ->    69.57%
+             happiness:     19      0      1      6     37      5      0    ->    54.41%
+               neutral:      1      7      1      5      0     60      2    ->    78.95%
+               sadness:      0      4      2      1      0      3     54    ->    84.38%
+                                                                            =>    77.15% | 78.05%
